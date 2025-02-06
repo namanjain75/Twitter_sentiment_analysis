@@ -117,9 +117,7 @@ twitter_sentiment_analysis/
 - The Python script processes tweets and returns the sentiment classification for each tweet using the trained model.
 - The Node.js server provides an API to send tweet data and retrieve sentiment analysis results.
 
-## License
 
-This project is licensed under the ISC License.
 
 ## Author
 
