@@ -1,4 +1,5 @@
 async function fetchSentimentData() {
+    // in place of this static twits we can use twitter api also 
     const tweets = [
         "I absolutely love this app, it's amazing!",
         "Worst purchase I ever made, totally regret it.",

@@ -91,7 +91,7 @@ The backend server is designed to accept tweet data and return sentiment analysi
 #### Example using `curl`:
 
 ```bash
-curl -X POST http://localhost:3000/analyze-sentiment -H "Content-Type: application/json" -d '[ "I love coding!", "I am not a fan of bugs." ]'
+curl -X POST http://localhost:3000/analyze -H "Content-Type: application/json" -d '{"tweets": ["I love this!", "This is terrible!"]}'
 ```
 
 This will return a response with the sentiment of each tweet.
