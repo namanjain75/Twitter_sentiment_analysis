@@ -1,7 +1,6 @@
 
 # Twitter Sentiment Analysis
-
-This project implements a sentiment analysis model using a pre-trained transformer model to classify tweets into "positive" or "negative" sentiments. The model is downloaded from Google Drive, and the code allows for processing of tweet data in a JSON format.
+This project implements a sentiment analysis model using a **custom-trained transformer model**. The model was trained using Hugging Face's `transformers` library, specifically with an uncased BERT model on a dataset of 1.6 million tweets. The model classifies tweets into "positive" or "negative" sentiments. The trained model is downloaded from Google Drive, and the code allows for processing tweet data in a JSON format.
 
 ## Requirements
 
