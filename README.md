@@ -1,6 +1,6 @@
 
 # Twitter Sentiment Analysis
-This project implements a sentiment analysis model using a **custom-trained transformer model**. The model was trained using Hugging Face's `transformers` library, specifically with an uncased BERT model on a dataset of 1.6 million tweets. The model classifies tweets into "positive" or "negative" sentiments. The trained model is downloaded from Google Drive, and the code allows for processing tweet data in a JSON format.
+This project implements a sentiment analysis model using a **custom-trained transformer model**. The model was trained using Hugging Face's `transformers` library, specifically with an uncased BERT model on a dataset of 1.6 million tweets. The model classifies tweets into "positive" or "negative" sentiments. and the code allows for processing tweet data in a JSON format.
 
 ## Requirements
 
@@ -103,16 +103,23 @@ twitter_sentiment_analysis/
 ├── app.js                   # Node.js application entry point
 ├── sentiment_analysis.py    # Python script for sentiment analysis
 ├── sentiment_model/         # Folder containing the sentiment analysis model
-├── sentiment_model.zip      # Pre-trained model (zipped)
+├── Agent/                   # # Sentiment analysis script
 ├── package.json             # Node.js dependencies and scripts
 ├── .env                     # Environment variables for configuration
 └── README.md                # Project documentation
+
+
+Agent/
+  └── sentiment.py              # Sentiment analysis script
+Model/
+  ├── Model.ipynb               # Jupyter notebook for model training
+  └── Twitter_Client_side.ipynb # Client-side interaction for Twitter API
 ```
 
 ## Additional Information
 
 - The model used in this project is based on Hugging Face's `transformers` library and fine-tuned for sentiment analysis tasks.
-- The project uses `gdown` to download the model from Google Drive.
+- The project uses `gdown` to download the model from Google Drive (Our pretrained model).
 - The Python script processes tweets and returns the sentiment classification for each tweet using the trained model.
 - The Node.js server provides an API to send tweet data and retrieve sentiment analysis results.
 
@@ -120,7 +127,7 @@ twitter_sentiment_analysis/
 
 ## Author
 
-- Naman
+- Naman Jain
 - Kaustubh
 
 ## Acknowledgments
