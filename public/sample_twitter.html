@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Twitter Sentiment Analysis</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./javascript/sample_twitter.js"></script>
+    <link rel="stylesheet" href="./css/sample_twitter.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="spinner"></div>
+        Loading data...
+    </div>
+
+    <div class="container" style="display:none;" id="analysis-report">
+        <h1>Sentiment Analysis - Sample Twitter Tweets</h1>
+        <div id="analysis-report">
+            <h2>Top 5 Positive Tweets:</h2>
+            <ul id="positive-tweets"></ul>
+
+            <h2>Top 5 Negative Tweets:</h2>
+            <ul id="negative-tweets"></ul>
+
+            <h2>Sentiment Distribution</h2>
+            <canvas id="sentiment-chart"></canvas>
+
+            <h2>Other Analysis</h2>
+            <p>Total Positive Tweets: <span id="positive-count"></span></p>
+            <p>Total Negative Tweets: <span id="negative-count"></span></p>
+        </div>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

@@ -2,3 +2,4 @@ package-lock.json
 Dataset/
 node_modules/
 sentiment_model
+.env
