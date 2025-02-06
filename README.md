@@ -1,5 +1,5 @@
 
-# Twitter Sentiment Analysis
+# Twitter Sentiment Analysis using BERT
 This project implements a sentiment analysis model using a **custom-trained transformer model**. The model was trained using Hugging Face's `transformers` library, specifically with an uncased BERT model on a dataset of 1.6 million tweets. The model classifies tweets into "positive" or "negative" sentiments. and the code allows for processing tweet data in a JSON format.
 
 ## Requirements
