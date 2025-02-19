@@ -140,22 +140,22 @@ Model/
 Here are some images showcasing the project:
 
 
-![Model Training](images/1.png)
+![Model Training](Images/1.png)
 
 
-![Data Processing](images/2.png)
+![Data Processing](Images/2.png)
 
 
-![Sentiment Analysis Script](images/3.png)
+![Sentiment Analysis Script](Images/3.png)
 
 
-![JSON Input](images/4.png)
+![JSON Input](Images/4.png)
 
 
-![API Request](images/5.png)
+![API Request](Images/5.png)
 
 
-![API Response](images/6.png)
+![API Response](Images/6.png)
 
 
-![Application Running](images/7.png)
+![Application Running](Images/7.png)
