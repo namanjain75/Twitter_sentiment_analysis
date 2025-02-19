@@ -139,23 +139,23 @@ Model/
 
 Here are some images showcasing the project:
 
+### Sentiment Analysis for text 
+![Sentiment Analysis for text](Images/1.png)
 
-![Model Training](Images/1.png)
+### Result 
+![Result](Images/2.png)
 
+### Backend request
+![Backend request](Images/3.png)
 
-![Data Processing](Images/2.png)
+### Tweets Loading
+![Tweets Loading](Images/4.png)
 
+### Sentiment Report
+![Sentiment Report](Images/5.png)
 
-![Sentiment Analysis Script](Images/3.png)
+### Sentiment Distribution
+![Sentiment Distribution](Images/6.png)
 
-
-![JSON Input](Images/4.png)
-
-
-![API Request](Images/5.png)
-
-
-![API Response](Images/6.png)
-
-
-![Application Running](Images/7.png)
+### Backend Request
+![Backend Request](Images/7.png)
