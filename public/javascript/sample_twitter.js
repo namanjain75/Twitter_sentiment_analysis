@@ -11,7 +11,7 @@ async function fetchSentimentData() {
 
     try {
         // Fetch sentiment data from the backend
-        const response = await fetch("http://localhost/analyze", {
+        const response = await fetch("http://127.0.0.1:3000/analyze", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ tweets })

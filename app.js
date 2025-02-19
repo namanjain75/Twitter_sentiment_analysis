@@ -3,18 +3,24 @@ require("dotenv").config(); // Load environment variables from .env file
 
 const express = require("express"); // Import Express framework
 const bodyParser = require("body-parser"); // Middleware for parsing request bodies
+
 const { spawn } = require("child_process"); // Used to run external Python script
 const path = require("path"); // Utility module for handling file paths
 const cors = require('cors');
 
+
 const app = express(); // Create an Express application
 const PORT = process.env.PORT || 3000; // Use port from .env file or default to 3000
 
-app.use(cors()); // Allow all origins (for development)
+
+
+app.use(cors());
+app.use(bodyParser.json());  // ✅ Ensures JSON parsing
+app.use(express.json()); // Enable JSON parsing for incoming requests
 // Serve static files (like HTML, CSS, JS) from the folder specified in .env
 app.use(express.static(path.join(__dirname, process.env.PUBLIC_FOLDER)));
 
-app.use(express.json()); // Enable JSON parsing for incoming requests
+
 
 // Endpoint for home sentiment analysis
 app.post("/analyze_home", (req, res) => {
@@ -114,6 +120,6 @@ app.post("/analyze", (req, res) => {
 });
 
 // Start the server and listen on the specified port
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}/`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 Server running at http://0.0.0.0:${PORT}/`);
 });

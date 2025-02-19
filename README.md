@@ -134,3 +134,28 @@ Model/
 
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - [Google Drive API](https://developers.google.com/drive)
+
+## Screenshots
+
+Here are some images showcasing the project:
+
+
+![Model Training](images/1.png)
+
+
+![Data Processing](images/2.png)
+
+
+![Sentiment Analysis Script](images/3.png)
+
+
+![JSON Input](images/4.png)
+
+
+![API Request](images/5.png)
+
+
+![API Response](images/6.png)
+
+
+![Application Running](images/7.png)

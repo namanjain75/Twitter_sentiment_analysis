@@ -8,7 +8,7 @@ async function analyzeSentiment() {
     const tweets = [tweet];  // Wrap the single tweet in an array
     console.log("Sending tweets to backend:", tweets);  // Debugging line to log the tweets being sent
 
-    const response = await fetch("http://localhost/analyze_home", {
+    const response = await fetch("http://127.0.0.1:3000/analyze_home", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ tweets })  // Send the array instead of a single tweet
